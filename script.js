@@ -10,6 +10,7 @@ main.append(p, btn);
 function replaceWithH1(element) {
   const h1 = document.createElement("h1");
   h1.innerText = "Entered Metaverse";
+	h1.id="status";
   element.replaceWith(h1);
 }
 
