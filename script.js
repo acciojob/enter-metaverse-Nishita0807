@@ -15,6 +15,7 @@ function replaceWithH1(element) {
 }
 
 const button = document.getElementById("enterBtn");
+const para=document.getElementById("status");
 button.addEventListener("click", function () {
-  replaceWithH1(p);
+  replaceWithH1(para);
 });
