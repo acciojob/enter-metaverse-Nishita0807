@@ -10,12 +10,14 @@ main.append(p, btn);
 function replaceWithH1(element) {
   const h1 = document.createElement("h1");
   h1.innerText = "Entered Metaverse";
-  h1.id = "status";
+  
+  // Create an h1 element within the h1 element
+
   element.replaceWith(h1);
 }
 
 const button = document.getElementById("enterBtn");
-const para=document.getElementById("status");
+const para = document.getElementById("status");
 button.addEventListener("click", function () {
   replaceWithH1(para);
 });
