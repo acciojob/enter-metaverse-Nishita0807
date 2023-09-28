@@ -11,6 +11,7 @@ function changing(){
 	const para=document.getElementById("status");
 	para.remove();
 	const h1=document.createElement("h1");
+	h1.id="status";
 	h1.innerText="Entered Metaverse";
 	main.append(h1,button);
 	
