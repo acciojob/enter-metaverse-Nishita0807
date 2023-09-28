@@ -17,7 +17,7 @@ function changing(){
 	
 }
 const clickbtn=document.getElementById("enterBtn");
-enterBtn.onclick=changing;
+clickbtn.onclick=changing;
 
 
 
