@@ -9,11 +9,13 @@ main.append(p,button);
 
 function changing(){
 	const para=document.getElementById("status");
-	para.remove();
+	
+	para.innerText="";
 	const h1=document.createElement("h1");
-	h1.id="status";
+	
 	h1.innerText="Entered Metaverse";
-	main.append(h1,button);
+	para.appendChild(h1);
+	
 	
 }
 const clickbtn=document.getElementById("enterBtn");
